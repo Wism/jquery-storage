@@ -72,7 +72,7 @@
     // Verify the compatibility with localStorage
     support : function(){
 	    return ('localStorage' in window) && window['localStorage'] !== null;
-    }
+    },
     
     clear : function(content){
 	    var contents = $.extend( {
